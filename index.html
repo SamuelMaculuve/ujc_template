@@ -33,7 +33,11 @@
     <!--====== Main Style CSS ======-->
     <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <link rel="stylesheet" href="assets/css/style.min.css">
-    
+    <style type="text/css">
+        .text-color{
+            color: #ffff;
+        }
+    </style>
 </head>
 
 <body>
@@ -45,15 +49,15 @@
             <div class="container">
                 <div class="header-top-wrapper d-flex flex-wrap justify-content-sm-between">
                     <div class="header-top-left mt-10">
-                        <ul class="header-meta">
-                            <li><a href="mailto://infoedumate@example.com">infoedumate@example.com</a></li>
-                        </ul>
+                        <ul class="list-inline">
+                            <li><a class="font-size-20" href="/" aria-label="Home"><i class="fa fa-home"></i>Universidade Joaquim Chissano (UJC</a></li>
+                         </ul>
                     </div>
                     <div class="header-top-right mt-10">
                         <div class="header-link">
-                            <a class="notice" href="notice.html">Notice</a>
+                            <a class="notice" href="notice.html">Inscrições Online</a>
                             <a class="login" href="login.html">Login</a>
-                            <a class="register" href="register.html">Register</a>
+                            <a class="register" href="register.html">Catálogo dos Cursos</a>
                         </div>
                     </div>
                 </div>
@@ -73,26 +77,12 @@
                         <nav class="nav-menus-wrapper">
                             <ul class="nav-menu">
                                 <li>
-                                    <a class="active" href="#">Home</a>
-                                    <ul class="nav-dropdown nav-submenu">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <li><a href="index.html">Home 01</a></li>
-                                        <li><a class="active" href="index-2.html">Home 02</a></li>
-                                        <li><a href="index-3.html">Home 03</a></li>
-                                            </div>
-
-                                            <div class="col-6">
-                                                <li><a href="index.html">Home 01</a></li>
-                                        <li><a class="active" href="index-2.html">Home 02</a></li>
-                                        <li><a href="index-3.html">Home 03</a></li>
-                                            </div>
-                                        </div>
-                                    </ul>
+                                    <a class="active" href="#">Sobre</a>
+                                   
                                 </li>
 
                                 <li>
-                                    <a href="#">Courses</a>
+                                    <a href="#">Cursos</a>
                                     <ul class="nav-dropdown nav-submenu">
                                         <li>
                                             <a href="#">Courses Grid</a>
@@ -116,7 +106,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Events</a>
+                                    <a href="#">Centros</a>
                                     <ul class="nav-dropdown nav-submenu">
                                         <li><a href="event.html">Event 01</a></li>
                                         <li><a href="event-2.html">Event 02</a></li>
@@ -124,7 +114,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Pages</a>
+                                    <a href="#">Plataforma</a>
                                     <ul class="nav-dropdown nav-submenu">
                                         <li><a href="about-us.html">About</a></li>
                                         <li><a href="teachers.html">Teachers</a></li>
@@ -139,7 +129,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Shop</a>
+                                    <a href="#">Comunicação</a>
                                     <ul class="nav-dropdown nav-submenu">
                                         <li><a href="shop.html">Shop </a></li>
                                         <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
@@ -148,7 +138,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="#">Links</a>
                                     <ul class="nav-dropdown nav-submenu">
                                         <li><a href="blog.html">Blog </a></li>
                                         <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
@@ -156,18 +146,10 @@
                                         <li><a href="blog-details.html">Blog Details</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-lg-2 position-static">
-                        <div class="header-search">
-                            <form action="#">
-                                <input type="text" placeholder="Search">
-                                <button><i class="fas fa-search"></i></button>
-                            </form>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -175,10 +157,10 @@
 
     <!--====== Header Ends ======-->
     
-    <!--====== Slider Start ======-->
+    <!--====== Slider Start ====== style="height: 400px !important;"-->
 
     <section class="slider-area slider-02 slider-active">
-        <div class="single-slider d-flex align-items-center bg_cover" style="background-image: url(assets/images/slider-2-1.webp);">
+        <div class="single-slider d-flex align-items-center bg_cover" style="background-image: url(assets/images/slider-2-1.webp);height: 400px !important;">
             <div class="container">
                 <div class="slider-content slider-content-2">
                     <h2 class="title" data-animation="fadeInLeft" data-delay="0.2s">Education is the power of Humanity</h2>
@@ -190,7 +172,7 @@
             </div>
         </div>
 
-        <div class="single-slider d-flex align-items-center bg_cover" style="background-image: url(assets/images/slider-2-2.webp);">
+        <div class="single-slider d-flex align-items-center bg_cover" style="background-image: url(assets/images/slider-2-2.webp);height: 400px !important;">
             <div class="container">
                 <div class="slider-content slider-content-2">
                     <h2 class="title" data-animation="fadeInLeft" data-delay="0.2s">Education is the power of Humanity</h2>
@@ -202,7 +184,7 @@
             </div>
         </div>
 
-        <div class="single-slider d-flex align-items-center bg_cover" style="background-image: url(assets/images/slider-2-3.webp);">
+        <div class="single-slider d-flex align-items-center bg_cover" style="background-image: url(assets/images/slider-2-3.webp);height: 400px !important;">
             <div class="container">
                 <div class="slider-content slider-content-2">
                     <h2 class="title" data-animation="fadeInLeft" data-delay="0.2s">Education is the power of Humanity</h2>
@@ -223,7 +205,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <div class="about-content mt-40">
+                    <div class="about-content">
                         <h2 class="about-title">Best <span>Educational</span> Environment</h2>
                         <span class="line"></span>
                         <p>Even slightly believable. If you are going use passage of Lorem Ipsum need desire to obtain pain of itself, because it is pain de sires many pain of itself occur for your study <br> <br> Even slightly believable. If you are going use passage of Lorem Ipsum need desir</p>
@@ -521,72 +503,95 @@
     <!--====== Campus Ends ======-->
     <!--====== Footer Start ======-->
 
-    <section class="footer-area bg_cover" style="background-image: url(assets/images/counter-bg.webp);">
-        <div class="footer-widget">
+    <section class="footer-area footer-02 bg_cover">
+        <div class="footer-widget  pt-5 mb-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="footer-link mt-45">
-                            <h4 class="footer-title">Information</h4>
-                            <ul class="link-list">
-                                <li><a href="#">Admission</a></li>
-                                <li><a href="#">Tuition fee</a></li>
-                                <li><a href="#">Scholorship</a></li>
-                                <li><a href="#">Coditions</a></li>
-                                <li><a href="#">Facilities</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="footer-link mt-45">
-                            <h4 class="footer-title">Useful Link</h4>
-                            <ul class="link-list">
-                                <li><a href="our-courses-left-sidebar.html">All Courses</a></li>
-                                <li><a href="teachers.html">Our Teachers</a></li>
-                                <li><a href="event.html">Our Events</a></li>
-                                <li><a href="blog-left-sidebar.html">Blog post</a></li>
-                                <li><a href="faq.html">FAQs</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="footer-link mt-45">
-                            <h4 class="footer-title">Useful Link</h4>
-                            <ul class="link-list">
-                                <li><a href="#">All Courses</a></li>
-                                <li><a href="#">Our Teachers</a></li>
-                                <li><a href="#">Our Events</a></li>
-                                <li><a href="#">Blog post</a></li>
-                                <li><a href="login.html">Login</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="footer-link mt-45">
-                            <h4 class="footer-title">Contact Info</h4>
-                            <ul class="link-list">
-                                <li>
-                                    <p>245, New Town, Marklen Street North City, New York, USA</p>
-                                </li>
-                                <li>
-                                    <p><a href="tel:+01254659874">+01254 659 874 </a></p>
-                                    <p><a href="tel:+32145857458">+32145 857 458</a></p>
-                                </li>
-                                <li>
-                                    <p><a href="mailto://info@example.com">info@example.com</a></p>
-                                    <p></p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-md-4">
+                     <p>
+                        <strong class="text-color">Postal Address:</strong><br>
+                        <span class="text-color">University of Pretoria</span><br>
+                        <span class="text-color">Private Bag x 20</span><br>
+                        <span class="text-color">Hatfield</span><br>
+                        <span class="text-color">0028</span><br>
+                        <!-- <span>South Africa</span> -->
+                     </p>
+                     <p>
+                        <strong class="text-color">Location:</strong><br>
+                        <span>
+                        <a class="color-01" href="/article/2749435/campuses-maps-directions" class="text-color">GIBS</a> | 
+                        <a class="color-01" href="/article/2749435/campuses-maps-directions" class="text-color">Groenkloof</a> | 
+                        <a class="color-01" href="/article/2749435/campuses-maps-directions" class="text-color">Hatfield</a><br> 
+                        <a class="color-01" href="/article/2749435/campuses-maps-directions" class="text-color">Hillcrest</a> | 
+                        <a class="color-01" href="/article/2749435/campuses-maps-directions" class="text-color">Mamelodi</a> | 
+                        <a class="color-01" href="/article/2749435/campuses-maps-directions" class="text-color">Onderstepoort</a> | 
+                        <a class="color-01" href="/article/2749435/campuses-maps-directions" class="text-color">Prinshof</a>
+                        </span>
+                     </p>
+                  </div>
+                  <div class="col-md-4">
+                     <p>
+                        <strong class="text-color">Student Service Centre (for Contact students):</strong><br>
+                        <span class="text-color">Contact Centre - Telephone:&nbsp;012&nbsp;420&nbsp;3111</span><br>
+                        <span class="text-color">Contact Centre - Email:&nbsp;<a class="color-01" href="mailto:ssc@up.ac.za">ssc@up.ac.za</a></span>
+                     </p>
+                     <p>
+                        <strong class="text-color">UPOnline Call Centre (for Online Students):</strong><br>
+                        <span class="text-color">Call Centre - Email:&nbsp;<a class="color-01" href="mailto:enquiries@online.up.ac.za">enquiries@online.up.ac.za</a></span>
+                     </p>
+                  </div>
+                  <section id="social_menu" class="zp-block-frontpageblock-social_menu col-md-4">
+                     <p><strong class="text-color">Get Social With Us</strong></p>
+                     <p class="social-links">
+                        <a class="fb" target="_blank" href="https://www.facebook.com/profile.php?id=100016712676784" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a class="yt" target="_blank" href="https://www.youtube.com/user/UPvideolibrary?ob=0&amp;feature=results_main" aria-label="YouTube"><i class="fa fa-youtube-play"></i></a>
+                        <a class="in" target="_blank" href="https://www.instagram.com/uplawfaculty/" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+                        <a class="li" target="_blank" href="https://www.linkedin.com/company/university-of-pretoria" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                        <a class="tw" target="_blank" href="https://twitter.com/UPLawFaculty" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                     </p>
+                     <p><strong class="text-color">Download the UP Mobile App</strong></p>
+                     <p class="mobile-app-downloads">
+                        <a href="https://play.google.com/store/apps/details?id=za.ac.up.m" target="_blank"><img src="/themes/up2.0/images/google-play-badge.png" height="60" alt=""></a>
+                        <a href="https://apps.apple.com/za/app/up-mobile-app/id1467791140" target="_blank"><img src="/themes/up2.0/images/apple-store-badge.png" width="140" height="40" alt=""></a>
+                     </p>
+                  </section>
+               </div>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                <div class="copyright text-center">
-                    <p>&copy; 2023 <span> Edumate </span> Made with <i class="fa fa-heart"></i> by <a href="#">codecarnival</a></p>
+
+            <div class="socket-area" style="background-color: #003087;
+                padding-top: 15px;
+                color: #a1a1a1;
+                font-size: 12px;">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-5">
+                        <p class="margin-0 padding-bottom-15" class="text-color">Copyright © University of Pretoria 2023. All rights reserved.</p>
+                     </div>
+                     <div class="col-lg-7">
+                        <p class="margin-0 padding-bottom-15 text-right">
+                           <a href="/human-resources-department/article/257103/careersup" class="text-color">Careers@UP</a> | 
+                           <a href="/tender" class="text-color">Tenders@UP</a> | 
+                           <a href="https://www.up.ac.za/article/2806555/ethics-hotline" class="text-color">Ethics Hotline</a> | 
+                           <a href="https://www.up.ac.za/web-office/article/2884659/website-privacy-notice" class="text-color">Privacy Notice</a> | 
+                           <a href="https://www.up.ac.za/web-office/article/2895058/disclaimer" class="text-color">Disclaimer</a> | 
+                           <a href="https://www.up.ac.za/web-office/article/2882822/terms-of-use-website" class="text-color">Terms of use</a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+           
+            <div class="notice-area" style="background-color: #003087;
+    font-size: 12px;
+    border-top: 1px solid #A1A1A1;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <p class="m-0 padding-top-15"><a href="https://sacoronavirus.co.za/"  class="text-color">COVID-19 Corona Virus South African Resource Portal</a></p>
+                    <p class="m-0 padding-bottom-15"  class="text-color">To contact the University during the COVID-19 lockdown, please send an email to <a href="mailto:ssc@up.ac.za"  class="text-color">ssc@up.ac.za</a></p>
+                  </div>
                 </div>
+              </div>
             </div>
         </div>
     </section>
@@ -599,25 +604,6 @@
 
     <!--====== BACK TOP TOP PART ENDS ======-->
     
-    <!--====== Start ======-->
-
-<!--
-    <section class="">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-">
-                    
-                </div>
-            </div>
-        </div>
-    </section>
--->
-
-    <!--====== Ends ======-->
-
-
-
-
     <!--====== Jquery js ======-->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
@@ -638,7 +624,4 @@
 
     
 </body>
-
-
-<!-- Mirrored from htmldemo.net/edumate-v1/edumate/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Mar 2023 22:34:32 GMT -->
 </html>
