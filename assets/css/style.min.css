@@ -4513,7 +4513,7 @@ button,input[type=submit]{
 }
 .blog-area-2{
     position:relative;
-    padding-top:112px;
+    padding-top:50px;
     z-index:1
 }
 @media only screen and (min-width:768px) and (max-width:991px){
@@ -4613,12 +4613,12 @@ button,input[type=submit]{
 }
 .blog-wrapper .more-post{
     position:absolute;
-    top:-35px;
-    right:170px;
+    padding-top: 20px;
+    right:13px;
     font-weight:600;
     font-size:18px;
     color:#5da2dc;
-    border-bottom:1px solid #707070
+    border-bottom:1px solid #707070;
 }
 @media only screen and (min-width:768px) and (max-width:991px){
     .blog-wrapper .more-post{
@@ -12924,11 +12924,8 @@ button,input[type=submit]{
         padding-top:70px
     }
 }
-.blog-area-2{
-    position:relative;
-    padding-top:112px;
-    z-index:1
-}
+
+
 @media only screen and (min-width:768px) and (max-width:991px){
     .blog-area-2{
         padding-top:90px
@@ -13024,15 +13021,7 @@ button,input[type=submit]{
     padding-top:35px;
     position:relative
 }
-.blog-wrapper .more-post{
-    position:absolute;
-    top:-35px;
-    right:170px;
-    font-weight:600;
-    font-size:18px;
-    color:#5da2dc;
-    border-bottom:1px solid #707070
-}
+
 @media only screen and (min-width:768px) and (max-width:991px){
     .blog-wrapper .more-post{
         right:0
