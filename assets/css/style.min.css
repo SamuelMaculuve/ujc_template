@@ -347,11 +347,24 @@ button,input[type=submit]{
     color:#5da2dc;
     margin-top:25px
 }
+@media (min-width: 1200px) {
+    .navigation .nav-toggle{
+        display: none !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .navigation .nav-toggle{
+        display: none !important;
+    }
+}
 @media only screen and (min-width:992px) and (max-width:1199px){
     .section-title-2 p{
         font-size:16px;
         line-height:28px
     }
+
+
 }
 @media (max-width:767px){
     .section-title-2 p{
@@ -708,7 +721,7 @@ button,input[type=submit]{
 }
 .header-top{
     background:#5da2dc;
-    padding-bottom:15px
+    padding-bottom: 8px
 }
 @media (max-width:767px){
     .header-top-wrapper .header-top-left{
@@ -1667,7 +1680,7 @@ button,input[type=submit]{
     }
 }
 .top-courses-area{
-    padding-top:110px
+    padding-top:50px
 }
 @media only screen and (min-width:768px) and (max-width:991px){
     .top-courses-area{
@@ -5181,18 +5194,18 @@ button,input[type=submit]{
     }
 }
 .about-content{
-    max-width:380px
+    /*max-width:380px*/
 }
 .about-content .about-title{
     font-weight:700;
     font-size:46px;
-    line-height:54px;
+    /*line-height:54px;*/
     color:#5da2dc
 }
 @media only screen and (min-width:992px) and (max-width:1199px){
     .about-content .about-title{
         font-size:38px;
-        line-height:45px
+        /*line-height:45px*/
     }
 }
 @media (max-width:767px){
@@ -9119,10 +9132,7 @@ button,input[type=submit]{
     z-index:99;
     background-color:#fff
 }
-.header-top{
-    background:#5da2dc;
-    padding-bottom:15px
-}
+
 @media (max-width:767px){
     .header-top-wrapper .header-top-left{
         width:100%;
@@ -10080,7 +10090,7 @@ button,input[type=submit]{
     }
 }
 .top-courses-area{
-    padding-top:110px
+    padding-top:50px
 }
 @media only screen and (min-width:768px) and (max-width:991px){
     .top-courses-area{
@@ -13582,9 +13592,7 @@ button,input[type=submit]{
         /*padding-top:15px*/
     }
 }
-.about-content{
-    max-width:380px
-}
+
 .about-content .about-title{
     font-weight:700;
     font-size:46px;
