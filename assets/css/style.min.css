@@ -1352,9 +1352,9 @@ button,input[type=submit]{
         font-size:36px
     }
 }
-.slider-content .slider-btn{
-    padding-top:40px
-}
+/*.slider-content .slider-btn{*/
+/*    padding-top:40px*/
+/*}*/
 .slider-content .slider-btn li{
     display:inline-block;
     margin-top:10px;
@@ -4618,7 +4618,17 @@ button,input[type=submit]{
     font-weight:600;
     font-size:18px;
     color:#5da2dc;
-    border-bottom:1px solid #707070;
+    /*border-bottom:1px solid #707070;*/
+}
+.top-courses-area .more-post{
+    /* position: absolute; */
+    padding-top: 20px;
+    /* right: 13px; */
+     font-weight: 600;
+    font-size: 18px;
+    color: #5da2dc;
+    float: right !important;
+    text-align: right;
 }
 @media only screen and (min-width:768px) and (max-width:991px){
     .blog-wrapper .more-post{
@@ -9766,7 +9776,7 @@ button,input[type=submit]{
     }
 }
 .slider-content .slider-btn{
-    padding-top:40px
+    padding-top:236px
 }
 .slider-content .slider-btn li{
     display:inline-block;
