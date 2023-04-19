@@ -4999,9 +4999,7 @@ button,input[type=submit]{
 .footer-link .link-list{
     padding-top:10px
 }
-.footer-link .link-list li{
-    margin-top:25px
-}
+
 .footer-link .link-list li p{
     font-weight:400;
     font-size:16px;
@@ -13402,7 +13400,7 @@ button,input[type=submit]{
     padding-top:10px
 }
 .footer-link .link-list li{
-    margin-top:25px
+    margin-top: 12px
 }
 .footer-link .link-list li p{
     font-weight:400;
