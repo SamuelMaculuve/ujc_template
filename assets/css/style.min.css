@@ -4958,7 +4958,7 @@ button,input[type=submit]{
     height:100%;
     top:0;
     left:0;
-    background-color:#5da2dc;
+    background-color: #000000 !important;
     z-index:-1
 }
 .footer-area.footer-02{
@@ -4997,11 +4997,9 @@ button,input[type=submit]{
     }
 }
 .footer-link .link-list{
-    padding-top:10px
+    padding-top: 13px
 }
-.footer-link .link-list li{
-    margin-top:25px
-}
+
 .footer-link .link-list li p{
     font-weight:400;
     font-size:16px;
@@ -9130,7 +9128,7 @@ button,input[type=submit]{
     background-color:#fff
 }
 .header-top{
-    background:#5da2dc;
+    background:#000000;
     padding-bottom:15px
 }
 @media (max-width:767px){
@@ -13401,9 +13399,7 @@ button,input[type=submit]{
 .footer-link .link-list{
     padding-top:10px
 }
-.footer-link .link-list li{
-    margin-top:25px
-}
+
 .footer-link .link-list li p{
     font-weight:400;
     font-size:16px;
