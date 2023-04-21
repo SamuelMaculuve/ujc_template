@@ -1667,7 +1667,7 @@ button,input[type=submit]{
     }
 }
 .top-courses-area{
-    padding-top:110px
+    padding-top:20px
 }
 @media only screen and (min-width:768px) and (max-width:991px){
     .top-courses-area{
@@ -10087,9 +10087,7 @@ button,input[type=submit]{
         line-height:26px
     }
 }
-.top-courses-area{
-    padding-top:110px
-}
+
 @media only screen and (min-width:768px) and (max-width:991px){
     .top-courses-area{
         padding-top:35px
@@ -16819,4 +16817,41 @@ button,input[type=submit]{
         line-height:26px
     }
 }
- 
+.wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.wrap:hover {
+    background: linear-gradient(135deg,#0a193b 100%);
+    color: white;
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 2.5rem !important;
+    color: #313131;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+.vcenter {
+    margin: auto;
+}
+
+.mbr-section-title3 {
+    text-align: left;
+}
+
+.display-5 {
+    font-size: 1.4rem;
+}
+.mbr-bold {
+    font-weight: 700;
+}
