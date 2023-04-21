@@ -1285,7 +1285,7 @@ button,input[type=submit]{
 }
 .single-slider{
     height:775px;
-    background:#5da2dc
+    background:#000000 !important;
 }
 @media only screen and (min-width:992px) and (max-width:1199px){
     .single-slider{
@@ -1328,7 +1328,7 @@ button,input[type=submit]{
     }
 }
 .slider-content .title{
-    font-size:76px;
+    font-size: 25px;
     font-weight:700;
     color:#fff
 }
@@ -9706,7 +9706,7 @@ button,input[type=submit]{
 }
 .single-slider{
     height:775px;
-    background:#5da2dc
+    background:#000000;
 }
 @media only screen and (min-width:992px) and (max-width:1199px){
     .single-slider{
