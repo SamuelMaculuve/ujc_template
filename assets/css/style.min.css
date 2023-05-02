@@ -1720,10 +1720,14 @@ button,input[type=submit]{
     background-color:#27b8a7
 }
 .courses-wrapper .courses-col:nth-child(8n+5) .single-courses,.courses-wrapper .courses-col:nth-child(8n+5) .single-courses-2{
-    background-color:#1ec1d9
+    background-color:#1ec1d9;
+    height: 352px;
 }
 .courses-wrapper .courses-col:nth-child(8n+5) .single-courses .courses-content .duration-rating,.courses-wrapper .courses-col:nth-child(8n+5) .single-courses-2 .courses-content .duration-rating{
     background-color:#1ec1d9
+}
+.single-courses-2 {
+    height: 365px;
 }
 .courses-wrapper .courses-col:nth-child(8n+6) .single-courses,.courses-wrapper .courses-col:nth-child(8n+6) .single-courses-2{
     background-color:#d94da6
@@ -5660,10 +5664,10 @@ button,input[type=submit]{
 .shop-wrapper{
     padding-top:10px
 }
-.page-banner{
-    padding-top:155px;
-    background:#5da2dc
-}
+/*.page-banner{*/
+/*    padding-top:155px;*/
+/*    background:#5da2dc*/
+/*}*/
 @media only screen and (min-width:768px) and (max-width:991px){
     .page-banner{
         padding-top:155px
@@ -14058,10 +14062,10 @@ button,input[type=submit]{
 .shop-wrapper{
     padding-top:10px
 }
-.page-banner{
-    padding-top:155px;
-    background:#5da2dc
-}
+/*.page-banner{*/
+/*    padding-top:155px;*/
+/*    background:#5da2dc*/
+/*}*/
 @media only screen and (min-width:768px) and (max-width:991px){
     .page-banner{
         padding-top:155px
