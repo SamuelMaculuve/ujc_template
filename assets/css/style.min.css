@@ -8124,19 +8124,8 @@ button,input[type=submit]{
 .contact-form-wrapper{
     padding-top:30px
 }
-.faq-area{
-    padding-top:150px
-}
-@media only screen and (min-width:768px) and (max-width:991px){
-    .faq-area{
-        padding-top:90px
-    }
-}
-@media (max-width:767px){
-    .faq-area{
-        padding-top:70px
-    }
-}
+
+
 .faq-wrapper{
     padding-top:42px
 }
@@ -16522,19 +16511,8 @@ button,input[type=submit]{
 .contact-form-wrapper{
     padding-top:30px
 }
-.faq-area{
-    padding-top:150px
-}
-@media only screen and (min-width:768px) and (max-width:991px){
-    .faq-area{
-        padding-top:90px
-    }
-}
-@media (max-width:767px){
-    .faq-area{
-        padding-top:70px
-    }
-}
+
+
 .faq-wrapper{
     padding-top:42px
 }
